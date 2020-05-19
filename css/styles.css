@@ -1,8 +1,15 @@
 .jumbotron {
+  background-position: top;
   background-size: cover;
   background-image: url(../Assignment_1/assets/backgrounds/hero.jpg);
   background-repeat: no-repeat;
 }
+
+}
+.navbar {
+  position: absolute;
+}
+
 
 .jumbotron h1{
   text-align: left;
@@ -18,6 +25,9 @@
   background-color: inherit;
   text-align: center;
   background-image: url(../Assignment_1/assets/backgrounds/about.jpg);
+  background-repeat: no-repeat;
+}
 
-
+.card-body {
+  float: left;
 }
