@@ -1,6 +1,7 @@
 .jumbotron {
   background-size: cover;
-  background-image: image("Assignment_1/assets/backgrounds/hero.jpg" alt="about" class="img-responsive");
+  background-image: url(../Assignment_1/assets/backgrounds/hero.jpg);
+  background-repeat: no-repeat;
 }
 
 .jumbotron h1{
@@ -11,4 +12,12 @@
 }
 .jumbotron p{
   text-align: center;
+}
+.card {
+  background-size: cover;
+  background-color: inherit;
+  text-align: center;
+  background-image: url(../Assignment_1/assets/backgrounds/about.jpg);
+
+
 }
